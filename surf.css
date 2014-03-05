@@ -1,0 +1,36 @@
+body,
+body#edit_overview,
+body#edit_social,
+body#edit_accountinfo,
+body#edit_password,
+body#forgot_password,
+body#edit_profile,
+body#password_request_sent,
+body#reset_password,
+body#signin,
+body#create_account,
+body#link_account {
+    width: 460px;
+}
+
+input {
+    background: none repeat scroll 0 0 #DFDFDF
+}
+
+#fields input {
+    background-color: #DFDFDF;
+    border:none
+    color: #666666;
+    font-size: 1em;
+    margin: 0;
+    padding: 14px 15px;
+    box-shadow:0 0 2px rgba(0, 0, 0, 0.2) inset, 0 0 0 rgba(255, 255, 255, 0);
+    font-size:75%;
+    position:relative;
+    transition:all 0.5s ease-in-out 0s;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#fields ul li {
+    width:50%;
+    float:left;
+}
