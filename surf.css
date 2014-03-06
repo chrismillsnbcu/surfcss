@@ -45,8 +45,8 @@ body#signin {
     width:33.3%;
     float:left;
 }
-#fields ul li #field_email,
-#fields ul li #field_password {
+#fields ul #field_email,
+#fields ul #field_password {
 	width:50%;
 }
 #header h1 {
@@ -105,21 +105,8 @@ button.button:hover {
 	color:#cc0000;
 }
 #field_firstname,
-/*#field_address1,
-#field_city,
-#field_postalcode,
-#field_phone,
-#field_company,
-#field_companyurl,
-#field_employee_nbcu,
-#field_radio_station,
-#field_newspaper_circulation,
-#field_magazine_circulation,
-#field_internet_circulation,
-#field_epk_download
-#field_tca_member,
-#field_photo_alerts,
-#field_city,*/
+#field_fax,
+#field_employee_nbcu
 .element_margin {
 	clear:both;
 }
@@ -132,8 +119,12 @@ button.button:hover {
 }
 #field_email .input_container,
 #field_password .input_container,
+#field_firstname .input_container,
+#field_lastname .input_container,
+#field_address1 .input_container,
 #field_employee_nbcu .input_container,
-#field_television .input_container {
+#field_television .input_container,
+#field_radio_station .input_container {
 	margin-top:20px;
 	padding-top:20px;
 	border-top:1px solid #dedede;
