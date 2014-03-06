@@ -136,3 +136,11 @@ button.button:hover {
 	padding-left:22px;
 	margin-left:0;
 }
+#field_email,
+#field_firstname {
+	background-image:url("/_images/bullet_required.png");
+	background-position: 8px center;
+	background-repeat: no-repeat;
+}
+#field_email .input_container,
+#field_firstname .input_container { background:none }
