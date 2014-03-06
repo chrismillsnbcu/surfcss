@@ -62,10 +62,6 @@ p.small a:hover {
 p.small a:hover {
 	text-decoration:none;
 }
-p.small:first-child {
-	padding-top:10px;
-	border-top:1px solid #fdfdfd;
-}
 button.button {
     background: #400095;
     border: none;
@@ -91,6 +87,7 @@ button.button:hover {
 }
 #fields {
 	border:0;
+	padding-top:0;
 }
 .error_notice {
 	background:none;
@@ -112,8 +109,13 @@ button.button:hover {
 #field_epk_download
 #field_tca_member,
 #field_photo_alerts,
-#field_city {
+#field_city,
+.element_margin {
 	clear:both;
+}
+.element_margin {
+	margin-top:10px;
+	border-top:1px solid #dedede;
 }
 .required_key span {
 	font-size:80%;
