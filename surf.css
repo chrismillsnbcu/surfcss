@@ -122,12 +122,8 @@ button.button:hover {
 	width:6px;
 	height:9px;
 }
-#field_email,
-#field_password {
-	margin-top:10px;
-	padding-top:10px;
-	border-top:1px solid #dedede;
-}
+#field_email .input_container,
+#field_password .input_container,
 #field_radio_station .input_container,
 #field_television .input_container {
 	margin-top:20px;
