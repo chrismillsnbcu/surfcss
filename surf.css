@@ -129,8 +129,6 @@ button.button:hover {
 	margin-top:20px;
 	padding-top:20px;
 	border-top:1px solid #dedede;
-}
-#fields ul li > div {
 	padding-left:0;
 	margin-left:22px;
 }
