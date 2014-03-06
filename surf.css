@@ -119,6 +119,8 @@ button.button:hover {
 	height:9px;
 }
 #field_firstname .input_container,
+#field_lastname .input_container,
+#field_address1 .input_container,
 #field_employee_nbcu .input_container,
 #field_television .input_container,
 #field_radio_station .input_container {
@@ -129,7 +131,13 @@ button.button:hover {
 	margin-left:22px;
 }
 #field_television .input_container,
-#field_password .input_container {
+#field_password .input_container,
+#field_lastname .input_container,
+#field_address1 .input_container, {
 	padding-left:22px;
 	margin-left:0;
+}
+#field_email .input_container,
+#field_password .input_container {
+	padding-top:20px;
 }
