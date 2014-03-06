@@ -16,11 +16,12 @@
     width:50%;
     float:left;
 }
-::-webkit-input-placeholder,
-:-moz-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder {
-    color:    #666666 !important;
+input[placeholder],
+-webkit-input-placeholder,
+-moz-placeholder,
+-moz-placeholder,
+-ms-input-placeholder {
+    color: #666666 !important;
 }
 h1 {
 	font-family:'HelveticaNeueLTStd35Thin',Arial,sans-serif;
@@ -31,6 +32,7 @@ h1 {
 p.small {
 	font-size:75%;
 	color:#333;
+	clear:both;
 }
 p.small a,
 p.small a:hover {
