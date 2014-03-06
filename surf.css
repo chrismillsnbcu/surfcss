@@ -44,6 +44,7 @@ body#link_account {
 	font-size:150%;
 	color:#010101;
 	font-weight:normal;
+	padding-top:25px;
 }
 p.small {
 	font-size:75%;
@@ -69,6 +70,9 @@ button.button {
     font-size: 100%;
     padding:12px 42px;
     text-shadow: none;
+}
+button.button:hover {
+	background:#330065;
 }
 #fields li.error .notice p {
 	background-color:#ffffff;
