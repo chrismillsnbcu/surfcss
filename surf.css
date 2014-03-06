@@ -127,7 +127,10 @@ button.button:hover {
 	margin-top:20px;
 	padding-top:20px;
 	border-top:1px solid #dedede;
-	padding-left:0;
+}
+#field_firstname .input_container {
+	margin-left:22px;
+	padding-left:22px;
 }
 #field_email .input_container,
 #field_password .input_container {
