@@ -108,6 +108,7 @@ button.button:hover {
 #field_firstname,
 #field_fax,
 #field_employee_nbcu,
+#field_photo_download,
 .element_margin {
 	clear:both;
 }
@@ -132,7 +133,9 @@ button.button:hover {
 }
 #field_password .input_container,
 #field_lastname .input_container,
-#field_address1 .input_container {
+#field_address1 .input_container,
+#field_television .input_container,
+#field_radio_station .input_container {
 	padding-left:22px;
 	margin-left:0;
 }
