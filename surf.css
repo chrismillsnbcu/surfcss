@@ -111,7 +111,8 @@ button.button:hover {
 #field_epk_download
 #field_tca_member,
 #field_photo_alerts,
-#field_city {
+#field_city,
+#field_television {
 	clear:both;
 }
 .required_key span {
@@ -127,8 +128,8 @@ button.button:hover {
 	padding-top:10px;
 	border-top:1px solid #fdfdfd;
 }
-#field_radio_station,
-#field_newspaper {
+#field_radio_station .input_container,
+#field_television .input_container {
 	margin-top:15px;
 	padding-top:10px;
 	border-top:1px solid #fdfdfd;
