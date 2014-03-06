@@ -9,22 +9,19 @@
     box-shadow:0 0 2px rgba(0, 0, 0, 0.2) inset, 0 0 0 rgba(255, 255, 255, 0);
     font-size:75%;
     position:relative;
-    transition:all 0.5s ease-in-out 0s;
     font-family:Arial, Helvetica, sans-serif;
+}
+#fields input[type=text] {
+	opacity: 1;
+    transition: opacity 0.5s;
 }
 #fields ul li {
     width:50%;
     float:left;
 }
--webkit-input-placeholder,
--moz-placeholder,
--moz-placeholder,
--ms-input-placeholder {
-    color: #666666 !important;
-}
 #header h1 {
 	font-family:'HelveticaNeueLTStd35Thin',Arial,sans-serif;
-	font-size:250%;
+	font-size:150%;
 	color:#010101;
 	font-weight:normal;
 }
@@ -53,15 +50,35 @@ button.button {
     padding:12px 42px;
     text-shadow: none;
 }
-*::-webkit-input-placeholder {
-    color: red;
+#fields input[type=text]::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 1s;
+    color:#666;
 }    
-*:-moz-placeholder {
-    color: red;
+#fields input[type=text]:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 1s;
+    color:#666;
 }
-*::-moz-placeholder {
-    color: red;
+#fields input[type=text]::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 1s;
+    color:#666;
 }    
-*:-ms-input-placeholder {
-    color: red;
+#fields input[type=text]:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 1s;
+    color:#666;
+}
+#fields input[type=text]:focus::-webkit-input-placeholder {
+    opacity:.1;
+}
+#fields input[type=text]:focus:-moz-placeholder{
+    opacity:.1;
+}
+#fields input[type=text]:focus::-moz-placeholder {
+    opacity:.1;
+}
+#fields input[type=text]:focus:-ms-input-placeholder {
+    opacity:.1;
 }
