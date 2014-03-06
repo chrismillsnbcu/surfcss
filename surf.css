@@ -112,8 +112,7 @@ button.button:hover {
 #field_epk_download
 #field_tca_member,
 #field_photo_alerts,
-#field_city,
-#field_newspaper {
+#field_city {
 	clear:both;
 }
 .required_key span {
@@ -125,8 +124,8 @@ button.button:hover {
 }
 #field_email .input_container,
 #field_password .input_container,
-/*#field_radio_station .input_container,
-#field_television .input_container*/ {
+#field_employee_nbcu .input_container,
+#field_television .input_container {
 	margin-top:20px;
 	padding-top:20px;
 	border-top:1px solid #dedede;
