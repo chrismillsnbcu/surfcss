@@ -72,7 +72,7 @@ button.button {
     text-shadow: none;
 }
 button.button:hover {
-	background:#330065;
+	background:#330065 !important;
 }
 #fields li.error .notice p {
 	background-color:#ffffff;
