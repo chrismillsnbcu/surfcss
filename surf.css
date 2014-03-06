@@ -1,23 +1,5 @@
-body,
-body#edit_overview,
-body#edit_social,
-body#edit_accountinfo,
-body#edit_password,
-body#forgot_password,
-body#edit_profile,
-body#password_request_sent,
-body#reset_password,
-body#signin,
-body#create_account,
-body#link_account {
-    width: 460px;
-}
-
-input {
-    background: none repeat scroll 0 0 #DFDFDF
-}
-
-#fields input {
+#fields input,
+#fields select {
     background-color: #DFDFDF;
     border:none
     color: #666666;
@@ -33,4 +15,40 @@ input {
 #fields ul li {
     width:50%;
     float:left;
+}
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+    color:    #666666 !important;
+}
+h1 {
+	font-family:'HelveticaNeueLTStd35Thin',Arial,sans-serif;
+	font-size:250%;
+	color:#010101;
+	font-weight:normal;
+}
+p.small {
+	font-size:75%;
+	color:#333;
+}
+p.small a,
+p.small a:hover {
+	color:#400095;
+	text-decoration:underline;
+}
+p.small a:hover {
+	text-decoration:none;
+}
+button.button {
+    background: #400095;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 100%;
+    padding:12px 42px;
+    text-shadow: none;
 }
