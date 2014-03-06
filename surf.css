@@ -1,3 +1,6 @@
+/* Register & Global SURF styles
+	by: Chris Mills 03.06.14
+*/
 body, body#edit_overview, body#edit_social, body#edit_accountinfo,
 body#edit_password,
 body#forgot_password,
@@ -9,9 +12,6 @@ body#create_account,
 body#link_account {
 	background:#fff;
 	width:850px;
-}
-body#signin {
-	width:460px;
 }
 #fields input,
 #fields select {
@@ -151,3 +151,25 @@ button.button:hover {
 	top:60px;
 	left:0;
 }
+/* Sign in styles */
+body#signin {
+	width:500px;
+}
+body#signin
+#fields {
+	float:none;
+	border:0;
+}
+body#signin
+a#forgot_password,
+body#signin
+a#forgot_password:hover {
+	color:#400095;
+	text-decoration:underline;
+	font-size:75%;
+}
+body#signin
+a#forgot_password:hover {
+	text-decoration:none;
+}
+/* */
