@@ -134,3 +134,8 @@ button.button:hover {
 	padding-left:0;
 	margin-left:22px;
 }
+#field_television .input_container,
+#field_password .input_container {
+	padding-left:22px;
+	margin-left:0;
+}
