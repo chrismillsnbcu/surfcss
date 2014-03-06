@@ -126,11 +126,15 @@ button.button:hover {
 #field_password {
 	margin-top:10px;
 	padding-top:10px;
-	border-top:1px solid #fdfdfd;
+	border-top:1px solid #dedede;
 }
 #field_radio_station .input_container,
 #field_television .input_container {
-	margin-top:15px;
-	padding-top:10px;
-	border-top:1px solid #fdfdfd;
+	margin-top:20px;
+	padding-top:20px;
+	border-top:1px solid #dedede;
+}
+#fields ul li > div {
+	padding-left:0;
+	margin-left:22px;
 }
