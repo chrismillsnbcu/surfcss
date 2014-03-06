@@ -97,6 +97,7 @@ button.button:hover {
 	padding-bottom:20px;
 	margin-bottom:20px;
 	border-bottom:1px solid #dedede;
+	border-top:1px solid #dedede;
 	float:left;
 }
 .error_notice {
@@ -117,11 +118,7 @@ button.button:hover {
 	width:6px;
 	height:9px;
 }
-#field_email .input_container,
-#field_password .input_container,
 #field_firstname .input_container,
-#field_lastname .input_container,
-#field_address1 .input_container,
 #field_employee_nbcu .input_container,
 #field_television .input_container,
 #field_radio_station .input_container {
@@ -136,11 +133,3 @@ button.button:hover {
 	padding-left:22px;
 	margin-left:0;
 }
-#field_email,
-#field_firstname {
-	background-image:url("/_images/bullet_required.png");
-	background-position: 8px center;
-	background-repeat: no-repeat;
-}
-#field_email .input_container,
-#field_firstname .input_container { background:none }
