@@ -87,6 +87,7 @@ button.button:hover {
 	font-size:75%;
 	margin:0;
 	padding:8px 6px;
+	margin-left:22px;
 }
 #fields {
 	border:0;
@@ -112,7 +113,7 @@ button.button:hover {
 #field_tca_member,
 #field_photo_alerts,
 #field_city,
-#field_television {
+#field_newspaper {
 	clear:both;
 }
 .required_key span {
