@@ -161,6 +161,10 @@ body#signin
 	border:0;
 }
 body#signin
+#fields ul li {
+	width:50%;	
+}
+body#signin
 a#forgot_password,
 body#signin
 a#forgot_password:hover {
