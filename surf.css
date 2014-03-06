@@ -128,14 +128,6 @@ button.button:hover {
 	padding-top:20px;
 	border-top:1px solid #dedede;
 	padding-left:0;
-	margin-left:22px;
-}
-#field_television .input_container,
-#field_password .input_container,
-#field_lastname .input_container,
-#field_address1 .input_container, {
-	padding-left:22px;
-	margin-left:0;
 }
 #field_email .input_container,
 #field_password .input_container {
