@@ -50,6 +50,7 @@ button.button {
     opacity: 1;
     transition: opacity 1s;
     color:#666;
+    display:none !important;
 }
 #fields input[type=text]:focus:-moz-placeholder {
     opacity:.1;
