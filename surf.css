@@ -89,3 +89,21 @@ button.button:hover {
 	border:0;
 	color:#cc0000;
 }
+#field_firstname,
+#field_address1,
+#field_city,
+#field_postalcode,
+#field_phone,
+#field_company,
+#field_companyurl,
+#field_employee_nbcu,
+#field_radio_station,
+#field_newspaper_circulation,
+#field_magazine_circulation,
+#field_internet_circulation,
+#field_epk_download
+#field_tca_member,
+#field_photo_alerts,
+#field_city {
+	clear:both;
+}
