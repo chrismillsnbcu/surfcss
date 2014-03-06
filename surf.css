@@ -148,6 +148,6 @@ button.button:hover {
 }
 #general_error_container {
 	position:absolute;
-	top:0;
+	top:60px;
 	left:0;
 }
