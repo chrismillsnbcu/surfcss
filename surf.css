@@ -1,3 +1,14 @@
+body, body#edit_overview, body#edit_social, body#edit_accountinfo,
+body#edit_password,
+body#forgot_password,
+body#edit_profile,
+body#password_request_sent,
+body#reset_password,
+body#signin,
+body#create_account,
+body#link_account {
+	width:800px;
+}
 #fields input,
 #fields select {
     background-color: #DFDFDF;
