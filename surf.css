@@ -87,6 +87,10 @@ button.button:hover {
 #fields {
 	border:0;
 	padding-top:0;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #dedede;
+	float:left;
 }
 .error_notice {
 	background:none;
@@ -111,10 +115,6 @@ button.button:hover {
 #field_city,
 .element_margin {
 	clear:both;
-}
-.element_margin {
-	margin-top:10px;
-	border-top:1px solid #dedede;
 }
 .required_key span {
 	font-size:80%;
