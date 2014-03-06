@@ -10,6 +10,7 @@
     font-size:75%;
     position:relative;
     font-family:Arial, Helvetica, sans-serif;
+    transition:all 0.5s ease-in-out 0s;
 }
 #fields ul li {
     width:50%;
@@ -45,23 +46,4 @@ button.button {
     font-size: 100%;
     padding:12px 42px;
     text-shadow: none;
-}
-#fields input[type=text]:-moz-placeholder {
-    opacity: 1;
-    transition: opacity 1s;
-    color:#666;
-    display:none !important;
-}
-#fields input[type=text]:focus:-moz-placeholder {
-    opacity:.1;
-    color:#666;
-}
-#fields input[type=text]::-webkit-input-placeholder {
-    opacity: 1;
-    transition: opacity 1s;
-    color:#666;
-}
-#fields input[type=text]:focus::-webkit-input-placeholder {
-    opacity:.1;
-    color:#666;
 }
