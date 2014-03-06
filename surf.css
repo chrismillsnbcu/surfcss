@@ -77,3 +77,11 @@ button.button {
 	margin:0;
 	padding:8px 6px;
 }
+#fields {
+	border:0;
+}
+.error_notice {
+	background:none;
+	border:0;
+	color:#cc0000;
+}
