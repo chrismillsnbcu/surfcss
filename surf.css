@@ -8,7 +8,10 @@ body#signin,
 body#create_account,
 body#link_account {
 	background:#fff;
-	width:800px;
+	width:850px;
+}
+body#signin {
+	width:460px;
 }
 #fields input,
 #fields select {
