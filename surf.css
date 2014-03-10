@@ -46,7 +46,7 @@ body#link_account {
     float:left;
 }
 #field_password {
-	display:none;
+	display:none !important;
 }
 #header h1 {
 	font-family:'HelveticaNeueLTStd35Thin',Arial,sans-serif;
