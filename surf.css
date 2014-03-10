@@ -140,7 +140,8 @@ button.button:hover {
 #field_photo_print .input_container,
 #field_photo_web .input_container,
 #field_internet_circulation .input_container  {
-	padding-top:40px;
+	padding-top:20px;
+	margin-top:20px;
 }
 #field_newspaper_circulation .input_container,
 #field_magazine_circulation .input_container,
@@ -158,15 +159,15 @@ button.button:hover {
 	top:60px;
 	left:0;
 }
-#fieldEmail .input_container {
+#fieldEmail {
 	background:url ('http://chrismillsnbcu.github.io/surfcss/images/hdr_what_type.gif');
 	padding-top:40px;
 }
-#field_company .input_container {
+#field_company {
 	background:url ('http://chrismillsnbcu.github.io/surfcss/images/hdr_what_you_do.gif');
 	padding-top:40px;
 }
-#field_television .input_container {
+#field_television {
 	background:url ('http://chrismillsnbcu.github.io/surfcss/images/hdr_who_you_are.gif');
 	padding-top:40px;
 }
