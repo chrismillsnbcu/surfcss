@@ -125,6 +125,9 @@ button.button:hover {
 	width:6px;
 	height:9px;
 }
+#fieldEmail .input_container,
+#field_firstname .input_container,
+#field_lastname .input_container,
 #field_company .input_container,
 #field_personal_title .input_container,
 #field_name .input_container,
@@ -136,9 +139,13 @@ button.button:hover {
 #field_cable_network .input_container,
 #field_photo_print .input_container,
 #field_photo_web .input_container,
-#field_photos_purpose .input_container  {
-	margin-top:20px;
-	padding-top:20px;
+#field_internet_circulation .input_container  {
+	padding-top:40px;
+}
+#field_newspaper_circulation .input_container,
+#field_magazine_circulation .input_container,
+#field_newspaper_circulation .input_container {
+	width:165px;
 }
 
 #field_email .input_container,
@@ -146,11 +153,22 @@ button.button:hover {
 #field_lastname .input_container {
 	padding-top:20px;
 }
-
 #general_error_container {
 	position:absolute;
 	top:60px;
 	left:0;
+}
+#fieldEmail .input_container {
+	background:url ('http://chrismillsnbcu.github.io/surfcss/images/hdr_what_type.gif');
+	padding-top:40px;
+}
+#field_company .input_container {
+	background:url ('http://chrismillsnbcu.github.io/surfcss/images/hdr_what_you_do.gif');
+	padding-top:40px;
+}
+#field_television .input_container {
+	background:url ('http://chrismillsnbcu.github.io/surfcss/images/hdr_who_you_are.gif');
+	padding-top:40px;
 }
 /* Sign in styles */
 body#signin {
