@@ -104,10 +104,8 @@ button.button:hover {
 	border:0;
 	color:#cc0000;
 }
-#field_firstname,
-#field_fax,
-#field_employee_nbcu,
-#field_photo_download,
+#field_name,
+#field_contact_person,
 .element_margin {
 	clear:both;
 }
@@ -120,7 +118,10 @@ button.button:hover {
 }
 #field_company .input_container,
 #field_personal_title .input_container,
-#field_url .input_container {
+#field_url .input_container,
+#field_company .input_container,
+#field_personal_title .input_container,
+#field_url .input_container  {
 	margin-top:20px;
 	padding-top:20px;
 	border-top:1px solid #dedede;
