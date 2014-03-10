@@ -134,7 +134,7 @@ button.button:hover {
 #field_television .input_container,
 #field_radio_station .input_container,
 #field_cable_network .input_container,
-#field_photo_print, .input_container,
+#field_photo_print .input_container,
 #field_photo_web .input_container,
 #field_photos_purpose .input_container  {
 	margin-top:20px;
