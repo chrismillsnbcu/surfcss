@@ -106,6 +106,15 @@ button.button:hover {
 }
 #field_name,
 #field_contact_person,
+#field_television,
+#field_newspaper,
+#field_magazine,
+#field_internet,
+#field_photo_print,
+#field_epk_download,
+#field_tca_member,
+#field_email_format,
+#field_internet,
 .element_margin {
 	clear:both;
 }
@@ -121,11 +130,12 @@ button.button:hover {
 #field_name .input_container,
 #field_company .input_container,
 #field_personal_title .input_container,
-#field_url .input_container  {
+#field_url .input_container,
+#field_television .input_container,
+#field_radio_station .input_container,
+#field_cable_network .input_container  {
 	margin-top:20px;
 	padding-top:20px;
-	border-top:1px solid #dedede;
-	padding-left:0;
 }
 #field_email .input_container,
 #field_firstname .input_container,
