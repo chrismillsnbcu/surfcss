@@ -138,7 +138,8 @@ button.button:hover {
 #field_radio_station .input_container,
 #field_cable_network .input_container,
 #field_photo_print .input_container,
-#field_photo_web .input_container  {
+#field_photo_web .input_container,
+#field_photos_purpose .input_container  {
 	padding-top:20px;
 	margin-top:20px;
 }
@@ -154,14 +155,17 @@ button.button:hover {
 }
 #field_email {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_what_type.gif");
+	background-position:20px 25px;
 	background-repeat:no-repeat;
 }
 #field_company {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_what_you_do.gif");
+	background-position:20px 25px;
 	background-repeat:no-repeat;
 }
 #field_television {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_who_you_are.gif");
+	background-position:20px 25px;
 	background-repeat:no-repeat;
 }
 #field_email,
@@ -172,7 +176,10 @@ button.button:hover {
 #field_url,
 #field_photo_print,
 #field_photo_web,
-#field_photos_purpose {
+#field_photos_purpose,
+#field_television,
+#field_cable,
+#field_radio {
 	padding-top:20px;
 }
 /* Sign in styles */
