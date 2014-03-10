@@ -160,16 +160,13 @@ button.button:hover {
 	left:0;
 }
 #fieldEmail {
-	background:url ('https://chrismillsnbcu.github.io/surfcss/images/hdr_what_type.gif') no-repeat;
-	padding-top:20px;
+	background:url ('/images/hdr_what_type.gif') no-repeat;
 }
 #field_company {
-	background:url ('https://chrismillsnbcu.github.io/surfcss/images/hdr_what_you_do.gif') no-repeat;
-	padding-top:20px;
+	background:url ('/images/hdr_what_you_do.gif') no-repeat;
 }
 #field_television {
-	background:url ('https://chrismillsnbcu.github.io/surfcss/images/hdr_who_you_are.gif') no-repeat;
-	padding-top:20px;
+	background:url ('/images/hdr_who_you_are.gif') no-repeat;
 }
 /* Sign in styles */
 body#signin {
