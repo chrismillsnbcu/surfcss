@@ -45,6 +45,9 @@ body#link_account {
     width:33.3%;
     float:left;
 }
+#field_password {
+	display:none;
+}
 #header h1 {
 	font-family:'HelveticaNeueLTStd35Thin',Arial,sans-serif;
 	font-size:150%;
@@ -115,31 +118,17 @@ button.button:hover {
 	width:6px;
 	height:9px;
 }
-#field_firstname .input_container,
-#field_lastname .input_container,
-#field_address1 .input_container,
-#field_employee_nbcu .input_container,
-#field_television .input_container,
-#field_radio_station .input_container {
+#field_company .input_container,
+#field_personal_title .input_container,
+#field_url .input_container {
 	margin-top:20px;
 	padding-top:20px;
 	border-top:1px solid #dedede;
 	padding-left:0;
-	margin-left:22px;
-}
-#field_password .input_container,
-#field_lastname .input_container,
-#field_address1 .input_container,
-#field_television .input_container,
-#field_radio_station .input_container {
-	padding-left:22px;
-	margin-left:0;
-}
-#field_firstname .input_container {
-	padding-left:0;
 }
 #field_email .input_container,
-#field_password .input_container {
+#field_firstname .input_container,
+#field_lastname .input_container {
 	padding-top:20px;
 }
 #general_error_container {
