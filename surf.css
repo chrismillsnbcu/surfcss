@@ -153,19 +153,19 @@ button.button:hover {
 	top:60px;
 	left:0;
 }
-#field_email {
+#field_photo_print {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_what_type.gif");
-	background-position:20px 25px;
+	background-position:20px 28px;
 	background-repeat:no-repeat;
 }
-#field_company {
+#field_name {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_what_you_do.gif");
-	background-position:20px 25px;
+	background-position:20px 28px;
 	background-repeat:no-repeat;
 }
-#field_television {
+#field_email {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_who_you_are.gif");
-	background-position:20px 25px;
+	background-position:20px 28px;
 	background-repeat:no-repeat;
 }
 #field_email,
