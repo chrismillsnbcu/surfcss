@@ -25,6 +25,10 @@ body#link_account {
     font-size:75%;
     position:relative;
     font-family:Arial, Helvetica, sans-serif;
+    /* fix select menu height */
+    height:46px;
+    line-height:46px;
+    /* */
 }
 #fields label {
 	font-size:75%;
