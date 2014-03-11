@@ -45,9 +45,9 @@ body#link_account {
     width:33.3%;
     float:left;
 }
-#field_password {
+/*#field_password {
 	display:none !important;
-}
+}*/
 #header h1 {
 	font-family:'HelveticaNeueLTStd35Thin',Arial,sans-serif;
 	font-size:150%;
@@ -204,5 +204,12 @@ a#forgot_password:hover {
 body#signin
 a#forgot_password:hover {
 	text-decoration:none;
+}
+/* */
+
+
+/* REMOVE */
+#field_password {
+display:block;top:610px; left:490px;position:absolute;
 }
 /* */
