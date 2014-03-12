@@ -285,11 +285,16 @@ body#reset_password {
 }
 body#forgot_password
 #fields ul li {
-	width:75%;
+	width:100%;
 }
 body#forgot_password
 #fields {
 	padding-top:20px;
+}
+body#forgot_password
+#fields #error_container, #fields > p {
+	margin-bottom:20px;
+	font-size:18px;
 }
 /* */
 
