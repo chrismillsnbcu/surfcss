@@ -76,7 +76,7 @@ p.small a:hover {
 	text-decoration:none;
 }
 button.button {
-    background: #400095;
+    background-color: #400095;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -88,7 +88,7 @@ button.button {
     text-shadow: none;
 }
 button.button:hover {
-	background:#330065 !important;
+	background-color:#330065 !important;
 }
 #fields li.error .notice p {
 	background-color:#ffffff;
@@ -207,6 +207,13 @@ body#create_account
 #button_submit
 .standard_content {
 	display:none;
+}
+body#create_account
+#button_submit {
+	background:#400095;
+	display:block;
+	height:25px;
+	width:314px;
 }
 /* Sign in styles */
 body#signin {
