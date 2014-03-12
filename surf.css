@@ -190,8 +190,9 @@ button.button:hover {
 body#create_account
 #button_submit {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/submit_registration.png") !important;
-	background-position:center center;
-	background-repeat:no-repeat;
+	background-position:center center !important;
+	background-repeat:no-repeat important;
+	position:relative;
 	width:320px;
 	height:46px;
 }
