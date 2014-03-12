@@ -1,13 +1,11 @@
 /* Register & Global SURF styles
 	by: Chris Mills 03.06.14
 */
-body, body#edit_overview, body#edit_social, body#edit_accountinfo,
-body#edit_password,
-body#forgot_password,
+body,
+body#edit_overview,
+body#edit_social,
+body#edit_accountinfo,
 body#edit_profile,
-body#password_request_sent,
-body#reset_password,
-body#signin,
 body#create_account,
 body#link_account {
 	background:#fff;
@@ -45,6 +43,9 @@ body#link_account {
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #000;
 }
+body#create_account
+#fields ul li,
+body#edit_account
 #fields ul li {
     width:33.3%;
     float:left;
@@ -265,16 +266,23 @@ body#signin
 a#forgot_password:hover {
 	text-decoration:none;
 }
-body#signin
 button.button {
     background: #400095;
 }
-body#signin
 button.button:hover {
     background: #330065;
 }
 /* */
 
+/* Password */
+body#edit_password,
+body#forgot_password,
+body#password_request_sent,
+body#reset_password {
+	background:#fff;
+	width:460px;
+}
+/* */
 
 /* REMOVE */
 #field_password {
