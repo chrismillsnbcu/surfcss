@@ -292,6 +292,9 @@ button.button {
 button.button:hover {
     background: #330065;
 }
+button.button.loading, button.button.loading:active {
+	background: #330065 !important;
+}
 /* */
 
 /* Password */
