@@ -221,7 +221,7 @@ span {
 	background:#400095;
 	display:block;
 	width:320px;
-	height:46px;
+	height:16px;
 	width:310px;
 }
 body#create_account
@@ -229,8 +229,8 @@ body#create_account
 .loading_content
 img {
 	position:absolute;
-	top:5px;
-	right:20px;
+	top:8px;
+	left:60px;
 }
 body#create_account
 #button_submit {
