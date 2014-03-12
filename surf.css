@@ -188,6 +188,12 @@ button.button:hover {
 #field_name {
 	padding-top:20px;
 }
+body#edit_profile
+#general_error_container {
+	position:absolute;
+	top:98px;
+	left:-10px;
+}
 /* Change button text for register  */
 body#create_account
 #button_submit {
