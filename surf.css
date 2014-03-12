@@ -283,6 +283,14 @@ body#reset_password {
 	background:#fff;
 	width:460px;
 }
+body#forgot_password
+#fields ul li {
+	width:75%;
+}
+body#forgot_password
+#fields {
+	padding-top:20px;
+}
 /* */
 
 /* REMOVE */
