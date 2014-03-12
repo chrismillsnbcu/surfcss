@@ -269,6 +269,8 @@ body#signin
 	border:0;
 }
 body#signin
+#fields ul li,
+body#edit_password
 #fields ul li {
 	width:50%;
 	float:left;	
@@ -327,6 +329,7 @@ body#edit_accountinfo
 /* */
 
 /* REMOVE */
+body#create_account
 #field_password {
 top:610px; left:490px;position:absolute;
 }
