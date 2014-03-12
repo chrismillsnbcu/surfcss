@@ -252,7 +252,8 @@ body#signin
 }
 body#signin
 #fields ul li {
-	width:50%;	
+	width:50%;
+	float:left;	
 }
 body#signin
 a#forgot_password,
