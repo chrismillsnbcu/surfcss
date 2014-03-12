@@ -190,6 +190,8 @@ button.button:hover {
 }
 /* Change button text for register  */
 body#create_account
+#button_submit,
+body#edit_account
 #button_submit {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/submit_registration.png") !important;
 	background-position:center center !important;
@@ -199,6 +201,8 @@ body#create_account
 	height:46px !important;
 }
 body#create_account
+#button_submit:hover,
+body#edit_account
 #button_submit:hover {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/submit_registration.png") !important;
 	background-position:center center;
@@ -207,10 +211,16 @@ body#create_account
 }
 body#create_account
 #button_submit
+.standard_content,
+body#edit_account
+#button_submit
 .standard_content {
 	display:none !important;
 }
 body#create_account
+#button_submit
+.loading_content,
+body#edit_account
 #button_submit
 .loading_content {
 	position:relative;
@@ -218,7 +228,10 @@ body#create_account
 body#create_account
 #button_submit
 .loading_content
-span {
+span,
+body#edit_account
+#button_submit
+.loading_content {
 	background:#400095;
 	display:block;
 	width:320px;
@@ -228,12 +241,18 @@ span {
 body#create_account
 #button_submit
 .loading_content
+img,
+body#edit_account
+#button_submit
+.loading_content
 img {
 	position:absolute;
 	top:8px;
 	left:60px;
 }
 body#create_account
+#button_submit,
+body#edit_account
 #button_submit {
 	background:#400095;
 	display:block;
