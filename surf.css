@@ -49,6 +49,9 @@ body#link_account {
     width:33.3%;
     float:left;
 }
+#fields ul li#field_feedback_comments {
+	width:100%;
+}
 /*#field_password {
 	display:none !important;
 }*/
@@ -184,6 +187,17 @@ button.button:hover {
 #field_name {
 	padding-top:20px;
 }
+body#create_account
+#button_submit {
+	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/submit_registration.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+body#create_account
+#button_submit
+.standard_content {
+	display:none;
+}
 /* Sign in styles */
 body#signin {
 	width:500px;
@@ -214,6 +228,6 @@ a#forgot_password:hover {
 
 /* REMOVE */
 #field_password {
-display:block;top:610px; left:490px;position:absolute;
+top:610px; left:490px;position:absolute;
 }
 /* */
