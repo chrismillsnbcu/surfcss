@@ -298,19 +298,26 @@ button.button:hover {
 body#edit_password,
 body#forgot_password,
 body#password_request_sent,
-body#reset_password {
+body#reset_password,
+body#edit_accountinfo {
 	background:#fff;
 	width:460px;
 }
 body#forgot_password
+#fields ul li,
+body#edit_accountinfo
 #fields ul li {
 	width:100%;
 }
 body#forgot_password
+#fields,
+body#edit_accountinfo
 #fields {
 	padding-top:20px;
 }
 body#forgot_password
+#fields #error_container,
+body#edit_accountinfo
 #fields #error_container {
 	margin-bottom:20px;
 	font-size:18px;
