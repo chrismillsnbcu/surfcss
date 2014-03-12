@@ -292,7 +292,7 @@ body#forgot_password
 	padding-top:20px;
 }
 body#forgot_password
-#fields #error_container, #fields > p {
+#fields #error_container {
 	margin-bottom:20px;
 	font-size:18px;
 }
