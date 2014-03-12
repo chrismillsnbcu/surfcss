@@ -194,7 +194,7 @@ body#create_account
 	background-repeat:no-repeat !important;
 	position:relative;
 	width:320px;
-	height:46px;
+	height:46px !important;
 }
 body#create_account
 #button_submit:hover {
@@ -206,7 +206,7 @@ body#create_account
 body#create_account
 #button_submit
 .standard_content {
-	display:none;
+	display:none !important;
 }
 body#create_account
 #button_submit {
