@@ -326,6 +326,16 @@ body#edit_accountinfo
 	margin-bottom:20px;
 	font-size:18px;
 }
+body#edit_password
+#password_header {
+	padding-top:20px;
+	padding-bottom:10px;
+}
+body#edit_password
+#fields {
+	width:438px;
+	padding-top:20px;
+}
 /* */
 
 /* REMOVE */
