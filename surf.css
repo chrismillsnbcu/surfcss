@@ -187,6 +187,7 @@ button.button:hover {
 #field_name {
 	padding-top:20px;
 }
+/* Change button text for register  */
 body#create_account
 #button_submit {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/submit_registration.png") !important;
@@ -209,12 +210,36 @@ body#create_account
 	display:none !important;
 }
 body#create_account
+#button_submit
+.loading_content {
+	position:relative;
+}
+body#create_account
+#button_submit
+.loading_content
+span {
+	background:#400095;
+	display:block;
+	width:320px;
+	height:46px;
+	width:310px;
+}
+body#create_account
+#button_submit
+.loading_content
+img {
+	position:absolute;
+	top:5px;
+	right:20px;
+}
+body#create_account
 #button_submit {
 	background:#400095;
 	display:block;
 	height:25px;
 	width:314px;
 }
+/* */
 /* Sign in styles */
 body#signin {
 	width:500px;
