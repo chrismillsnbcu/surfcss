@@ -265,6 +265,14 @@ body#signin
 a#forgot_password:hover {
 	text-decoration:none;
 }
+body#signin
+button.button {
+    background: #400095;
+}
+body#signin
+button.button:hover {
+    background: #330065;
+}
 /* */
 
 
