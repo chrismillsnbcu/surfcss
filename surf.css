@@ -176,6 +176,12 @@ button.button:hover {
 	background-position:20px 28px;
 	background-repeat:no-repeat;
 }
+body#edit_profile
+#field_firstname {
+	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_who_you_are.gif");
+	background-position:20px 28px;
+	background-repeat:no-repeat;
+}
 #field_email,
 #field_firstname,
 #field_lastname,
@@ -329,12 +335,18 @@ body#edit_accountinfo
 body#edit_password
 #password_header {
 	padding-top:20px;
-	padding-bottom:10px;
 }
 body#edit_password
 #fields {
 	width:438px;
 	padding-top:20px;
+}
+body#edit_password
+#general_error_container {
+	position:absolute;
+	top:93px;
+	left:-10px;
+	z-index:3;
 }
 /* */
 
