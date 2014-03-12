@@ -52,9 +52,9 @@ body#link_account {
 #fields ul li#field_feedback_comments {
 	width:100%;
 }
-#field_password {
+/*#field_password {
 	display:none !important;
-}
+}*/
 #header h1 {
 	font-family:'HelveticaNeueLTStd35Thin',Arial,sans-serif;
 	font-size:150%;
@@ -191,7 +191,7 @@ body#create_account
 #button_submit {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/submit_registration.png") !important;
 	background-position:center center !important;
-	background-repeat:no-repeat important;
+	background-repeat:no-repeat !important;
 	position:relative;
 	width:320px;
 	height:46px;
