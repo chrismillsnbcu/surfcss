@@ -265,9 +265,9 @@ body#edit_account
 	height:25px;
 	width:314px;
 }
-#basic_info
+body#edit_account
 #edit_accountinfo {
-	display:none;
+	display:none !important;
 }
 /* */
 /* Sign in styles */
