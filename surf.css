@@ -326,6 +326,8 @@ body#edit_accountinfo
 }
 body#forgot_password
 #fields,
+body#password_request_sent
+#fields,
 body#edit_accountinfo
 #fields {
 	padding-top:20px;
@@ -352,12 +354,5 @@ body#edit_password
 	top:93px;
 	left:-10px;
 	z-index:3;
-}
-/* */
-
-/* REMOVE */
-body#create_account
-#field_password {
-top:610px; left:490px;position:absolute;
 }
 /* */
