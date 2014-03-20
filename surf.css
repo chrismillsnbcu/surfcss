@@ -169,6 +169,11 @@ button.button:hover {
 	top:60px;
 	left:0;
 }
+#field_television {
+	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_media_type.gif");
+	background-position:20px 28px;
+	background-repeat:no-repeat;
+}
 #field_photo_print {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_what_type.gif");
 	background-position:20px 28px;
