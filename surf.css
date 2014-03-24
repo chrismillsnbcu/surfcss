@@ -222,6 +222,7 @@ body#create_account
 	position:relative;
 	width:320px;
 	height:46px !important;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
 }
 body#create_account
 #button_submit:hover {
@@ -229,6 +230,7 @@ body#create_account
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-color:#330065;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
 }
 body#create_account
 #button_submit
