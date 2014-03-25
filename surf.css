@@ -364,9 +364,10 @@ body#edit_password
 }
 body#edit_password
 #general_error_container {
-	/*position:absolute;
-	top:93px;
-	left:-10px;*/
+	position:relative;
+	margin:0 0 0 10px;
+	top:0;
+	left:0;
 	z-index:3;
 }
 /* */
