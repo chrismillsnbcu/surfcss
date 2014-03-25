@@ -244,6 +244,7 @@ a#forgot_password:hover {
 }
 button.button {
     background: #400095;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 button.button:hover {
     background: #330065;
