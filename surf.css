@@ -214,7 +214,7 @@ body#edit_profile
 	left:-10px;
 }
 /* Change button text for register  */
-body#create_account
+/*body#create_account
 #button_submit {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/submit_registration.png") !important;
 	background-position:center center !important;
@@ -282,7 +282,7 @@ body#edit_account
 body#edit_account
 #edit_accountinfo {
 	display:none !important;
-}
+}*/
 /* */
 /* Sign in styles */
 body#signin {
