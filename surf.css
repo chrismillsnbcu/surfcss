@@ -219,7 +219,7 @@ body#edit_profile
 #basic_info .edit_icon_holder{
 	visibility: hidden
 }
-#basic_info_outer {
+#edit_overview #basic_info_outer {
 	cursor:default;
 }
 /* */
