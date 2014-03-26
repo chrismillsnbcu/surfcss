@@ -220,7 +220,7 @@ body#edit_profile
 	visibility: hidden
 }
 #edit_overview #basic_info_outer {
-	cursor:default;
+	cursor:default !important;
 }
 /* */
 /* Sign in styles */
