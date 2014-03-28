@@ -298,6 +298,8 @@ body#edit_password
 	padding-top:20px;
 }
 body#edit_password
+#fields,
+body#reset_password
 #fields {
 	width:438px;
 	padding-top:20px;
