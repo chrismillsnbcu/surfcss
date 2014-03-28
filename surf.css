@@ -304,6 +304,12 @@ body#reset_password
 	width:438px;
 	padding-top:20px;
 }
+body#reset_password
+#fields
+#user_info
+.italic {
+	display:none;
+}
 body#edit_password
 #general_error_container {
 	position:relative;
