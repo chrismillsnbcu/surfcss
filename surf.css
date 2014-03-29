@@ -252,7 +252,7 @@ a#forgot_password:hover {
 	text-decoration:none;
 }
 #basic_info_outer:hover {
-	background-color:#fff;
+	background-color:#fff !important;
 }
 button.button {
     background: #400095;
