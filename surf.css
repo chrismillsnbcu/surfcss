@@ -222,6 +222,9 @@ body#edit_profile
 #basic_info_outer {
 	cursor:default !important;
 }
+#edit_overview #basic_info_outer {
+	background:#fff;
+}
 /* */
 /* Sign in styles */
 body#signin {
@@ -250,9 +253,6 @@ a#forgot_password:hover {
 body#signin
 a#forgot_password:hover {
 	text-decoration:none;
-}
-#basic_info_outer:hover {
-	background-color:#fff !important;
 }
 button.button {
     background: #400095;
