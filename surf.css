@@ -251,6 +251,9 @@ body#signin
 a#forgot_password:hover {
 	text-decoration:none;
 }
+#basic_info_outer:hover {
+	background-color:#fff;
+}
 button.button {
     background: #400095;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
