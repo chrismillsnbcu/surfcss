@@ -226,6 +226,18 @@ body#edit_profile
 	background:#fff;
 }
 /* */
+
+/* Create Account Styles */
+body#create_account
+#footer {
+	background:none;
+	box-shadow:none;
+	position:absolute;
+	top:51px;
+	left:10px;
+}
+/* */
+
 /* Sign in styles */
 body#signin {
 	width:500px;
