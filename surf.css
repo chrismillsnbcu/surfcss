@@ -236,6 +236,10 @@ body#create_account
 	top:51px;
 	left:10px;
 }
+body#create_account
+#create_account_form {
+	padding-bottom:25px;
+}
 /* */
 
 /* Sign in styles */
