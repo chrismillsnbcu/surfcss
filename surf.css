@@ -242,6 +242,13 @@ body#create_account
 }
 /* */
 
+/* Edit Account Styles */
+body#edit_profile
+#field_email {
+	display:none;
+}
+/* */
+
 /* Sign in styles */
 body#signin {
 	width:500px;
