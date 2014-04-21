@@ -169,6 +169,11 @@ button.button:hover {
 	top:60px;
 	left:0;
 }
+body#create_profile
+#general_error_container {
+	position:relative;
+	top:36px;
+}
 #field_television {
 	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_media_type.gif");
 	background-position:20px 18px;
