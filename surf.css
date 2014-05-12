@@ -70,6 +70,11 @@ body#edit_profile
 	font-weight:normal;
 	padding-top:25px;
 }
+#edit_overview #header h1{
+    font-size: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
 p.small {
 	font-size:75%;
 	color:#333;
@@ -175,28 +180,28 @@ body#create_account
 	top:36px;
 }
 #field_television {
-	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_media_type.gif");
+	background-image:url("https://stage.nbcumv.com/sites/nbcumedvil/files/surf/hdr_media_type.gif");
 	background-position:20px 18px;
 	background-repeat:no-repeat;
 }
 #field_photo_print {
-	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_what_type.gif");
+	background-image:url("https://stage.nbcumv.com/sites/nbcumedvil/files/surf/hdr_what_type.gif");
 	background-position:20px 28px;
 	background-repeat:no-repeat;
 }
 #field_name {
-	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_what_you_do.gif");
+	background-image:url("https://stage.nbcumv.com/sites/nbcumedvil/files/surf/hdr_what_you_do.gif");
 	background-position:20px 28px;
 	background-repeat:no-repeat;
 }
 #field_email {
-	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_who_you_are.gif");
+	background-image:url("https://stage.nbcumv.com/sites/nbcumedvil/files/surf/hdr_who_you_are.gif");
 	background-position:20px 28px;
 	background-repeat:no-repeat;
 }
 body#edit_profile
 #field_firstname {
-	background-image:url("https://chrismillsnbcu.github.io/surfcss/images/hdr_who_you_are.gif");
+	background-image:url("https://stage.nbcumv.com/sites/nbcumedvil/files/surf/hdr_who_you_are.gif");
 	background-position:20px 28px;
 	background-repeat:no-repeat;
 }
@@ -341,4 +346,8 @@ body#edit_password
 	left:0;
 	z-index:3;
 }
+/* */
+
+/* Sign In */
+
 /* */
