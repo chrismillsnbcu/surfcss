@@ -349,5 +349,12 @@ body#edit_password
 /* */
 
 /* Sign In */
-
+body#signin
+.required_key {
+	width:455px;
+	text-align:right;
+	background-image:url('https://stage.nbcumv.com/sites/nbcumedvil/files/surf/existing_user.png');
+	background-repeat:no-repeat;
+	background-position:0px 4px;
+}
 /* */
